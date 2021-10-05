@@ -1,0 +1,9 @@
+variable "ssh_key" {
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC0kun5JmMjtpgR3YsXG08wFJO+3brXKzzRx5cplHeXmfNajfBtk6l0LnKMEHw7JrMlkJHdmwxDNoHRv13yvoWuxWrfa/83IsdHS5vtbtS3DhpERepSWPBZu5deXQWjk8viRZ5wAflqkjfU+qQWqGUxrEBS6Y5CbWRZACtVVf3CMztt79SedUSDENg9G/bLlX8jg1xbVQPawSIR4spAMg6DpqtnG0iv3QQe6ASfn2g6evjzvebr28EFlYujKzPDcr+YSzna0GS1RYe60WRZmsB0yPZmZH+mHdtZtkNyaQDtV8uZLiOCLfYAsTGm795b09DebiRE0i1bSYQUVaHoyhNzXcVZJiTwqhQ4UOhRVrxzFqYOcWz8gvdc4G32VQz/YfmQMi5nxeNaaHODodUlrN42TchgpSR8rBHTTJEGYj+EbnbOjYEET47GRdFRWvXDYPEPIPe/gWuu+pC9WVsXEmpCwsiIsNlI59zFv4j2SXtoA98hSxyF/xgIzOfkvQ6BocU= hailson_junior@N1129"
+}
+variable "proxmox_host" {
+    default = "pve2"
+}
+variable "template_name" {
+    default = "ubuntu-2004-cloudinit-template"
+}
