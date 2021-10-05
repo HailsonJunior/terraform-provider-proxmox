@@ -9,7 +9,7 @@ terraform {
 
 provider "proxmox" {
     pm_api_url = "https://10.1.1.14:8006/api2/json" 
-    pm_api_token_id = "terraform@pam!token_id" 
+    pm_api_token_id = "USER@pam!TOKEN_ID" 
     pm_api_token_secret = "YOUR-SECRET-TOKEN"
     pm_tls_insecure = true 
 }
